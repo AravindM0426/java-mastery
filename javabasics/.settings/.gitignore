@@ -12,6 +12,7 @@
 
 # Maven
 target/
+**/target/**
 
 # IntelliJ IDEA
 .idea/

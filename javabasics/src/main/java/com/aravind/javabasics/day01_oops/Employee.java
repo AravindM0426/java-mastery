@@ -27,6 +27,13 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	public Employee(Long id, String name, double salary, Department dept) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.dept = dept;
+	}
+
 	public Employee() {
 	}
 
